@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Wrapper</title>
+    <link rel="stylesheet" href="githubwrapper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Github Profile Wrapper</h1>
+            <input type="text" id="userName" placeholder="Github Username">
+            <button id="showDetails">Show Details</button>
+        </div>
+
+        <div id="profileInfo">
+            
+        </div>
+        <div id="RepoStars">
+          <span>
+            <h1>Top Repos by</h1>
+            <select name="sort" id="filter">
+                <option value="stars">Stars</option>
+                <option value="forks">Forks</option>
+                <option value="updated">Updated</option>
+                <option value="size">Size</option>
+            </select>
+          </span>
+
+
+        </div>
+
+
+        <div id="reposInfo">
+            
+        </div>
+    </div>
+
+    <script src="githubwrapper.js"></script>
+</body>
+</html>
