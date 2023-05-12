@@ -43,7 +43,7 @@ The GitHub Wrapper uses the following technologies and libraries:
 
 ## Credits
 
-The GitHub Wrapper was created by @VaibhavTalkhande. It is an open-source project released under the [MIT License](https://opensource.org/licenses/MIT).
+The GitHub Wrapper was created by <a href="https://github.com/VaibhavTalkhande">Vaibhav Talkhande</a>. It is an open-source project released under the [MIT License](https://opensource.org/licenses/MIT).
 
 If you have any suggestions, bug reports, or feature requests, please feel free to [create an issue](https://github.com/your-username/github-wrapper/issues) on GitHub.
 
